@@ -6,6 +6,7 @@ syntax on	"コードの色分け
 set cindent	"オートインデント(autoやsmartより賢い)
 set mouse=a	"全モードでマウスを有効化
 set hlsearch	"サーチ結果をハイライト表示
+colorscheme koehler	"カラー設定
 
 
 "Ctrl + hjkl でウィンドウ間を移動
