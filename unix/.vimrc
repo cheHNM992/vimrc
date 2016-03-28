@@ -7,19 +7,20 @@ set cindent	"オートインデント(autoやsmartより賢い)
 set mouse=a	"全モードでマウスを有効化
 set hlsearch	"サーチ結果をハイライト表示
 colorscheme koehler	"カラー設定
+set tags=./tags;
 
 
 "Ctrl + hjkl でウィンドウ間を移動
-nnoremap <C-h> <C-w>h
-nnoremap <C-j> <C-w>j
-nnoremap <C-k> <C-w>k
-nnoremap <C-l> <C-w>l
+"nnoremap <C-h> <C-w>h
+"nnoremap <C-j> <C-w>j
+"nnoremap <C-k> <C-w>k
+"nnoremap <C-l> <C-w>l
 
 "Shift + 矢印でウィンドウサイズを変更
-nnoremap <S-Left>  <C-w><<CR>
-nnoremap <S-Right> <C-w><CR>
-nnoremap <S-Up>    <C-w>-<CR>
-nnoremap <S-Down>  <C-w>+<CR>
+"nnoremap <S-Left>  <C-w><<CR>
+"nnoremap <S-Right> <C-w><CR>
+"nnoremap <S-Up>    <C-w>-<CR>
+"nnoremap <S-Down>  <C-w>+<CR>
 
 "Esc2回でサーチ結果のハイライトを取り消す
 nnoremap <ESC><ESC> :nohlsearch<CR>
